@@ -12,3 +12,7 @@
     color: #FFF;
     font-size: 3em;
   }
+
+  ul {
+      list-style-type:  none;
+  }
