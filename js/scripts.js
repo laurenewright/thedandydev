@@ -1,5 +1,7 @@
 // AOS animations http://michalsnik.github.io/aos/ 
 
+
 AOS.init({
-    duration: 1200
-   });
+    easing: 'ease-out-back',
+    duration: 1000
+});
