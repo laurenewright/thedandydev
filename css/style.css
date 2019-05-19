@@ -1,25 +1,101 @@
+/* colors:  #5C4400 #12B586 #A87C00 #560063 #9E00B8 */
+
+
+/* Web portfolio styling */
 * {
     box-sizing: border-box;
   }
   
-  
-
-/* colors:  #5C4400 #12B586 #A87C00 #560063 #9E00B8 */
-
   .item {
     width: 25%;
     height: 25%;
     margin: 50px 2% auto auto;
-    background: #ccc;
+    /* background: #ccc;
     text-align: center;
     color: #FFF;
-    font-size: 3em;
+    font-size: 3em; */
   }
 
   ul {
       list-style-type:  none;
-  }
+      column-count: 3;
+      column-gap: 2%;
+      float: center;
+      }
 
-  li {
+  #webExamples li {
+    float: center;
     display: inline;
-  }
+    width: 25px;
+    margin: 2.5%;
+}
+#webExamples img {
+  border-radius: 25px;
+  height:300px;
+  width:300px;
+  object-fit: cover;
+}
+
+#primary {
+  width: 50%;
+  float: left;
+}
+#secondary {
+  width: 40%;
+  float: right;
+}
+
+  /* .webExamples {
+    display:flex;
+  } */
+
+/* Body styling */
+
+body {
+  background-color:white;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: #57FFD9;
+  padding: 5px 0 0 0;
+  text-align: center;
+}
+
+#logo {
+  float: center;
+}
+a {
+  text-decoration: none; /** Removes link styling. **/
+}
+nav a, nav a:visited {
+  color:#4F8FE8;
+}
+a:link {
+  color: #4F8FE8;
+}
+/*nav styles*/
+a, a:visited {
+  color: #4F8FE8;
+}
+
+a.selected, a:hover {
+  color: #4F8FE8;
+}
+
+
+
+/* Profile Photo */
+
+.profile-photo {
+  display: block; /** Using Block allows us to center the image using margins. Default is inline. **/
+  max-width: 175px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+}
