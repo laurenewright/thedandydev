@@ -2,11 +2,13 @@
     box-sizing: border-box;
   }
   
+
+
+
   .item {
-    width: 200px;
-    height: 200px;
-    margin: 50px auto;
-    padding-top: 75px;
+    width: 25%;
+    height: 25%;
+    margin: 50px 2% auto auto;
     background: #ccc;
     text-align: center;
     color: #FFF;
@@ -15,4 +17,8 @@
 
   ul {
       list-style-type:  none;
+  }
+
+  li {
+    display: inline;
   }
