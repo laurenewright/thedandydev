@@ -6,48 +6,47 @@
     box-sizing: border-box;
   }
   
-  .item {
-    width: 25%;
-    height: 25%;
+  /* .item {
     margin: 50px 2% auto auto;
-    /* background: #ccc;
+    background: #ccc;
     text-align: center;
     color: #FFF;
-    font-size: 3em; */
-  }
+    font-size: 3em;
+  } */
+
+  #gallery li {
+    float: center;
+    width: 45%;
+    margin: 2.5%;
+    align-items: center;
+    justify-content: center;
+}
+
 
   ul {
       list-style-type:  none;
-      column-count: 3;
       column-gap: 2%;
       float: center;
       }
 
-  #webExamples li {
+#wrapperGallery {
     float: center;
     display: inline;
-    width: 25px;
-    margin: 2.5%;
-}
-#webExamples img {
-  border-radius: 25px;
-  height:300px;
-  width:300px;
-  object-fit: cover;
+    /* width: 25%;
+    margin: 2.5%; */
+    /* display: flex; */
+    text-align: center;
 }
 
-#primary {
-  width: 50%;
+#liveGallery, #designGallery {
   float: left;
-}
-#secondary {
-  width: 40%;
-  float: right;
+  width: 50%;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
 }
 
-  /* .webExamples {
-    display:flex;
-  } */
+
 
 /* Body styling */
 
@@ -55,6 +54,7 @@ body {
   background-color:white;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 header {
@@ -84,7 +84,17 @@ a.selected, a:hover {
   color: #4F8FE8;
 }
 
+/* Icons and images */
 
+.preview {
+  height: 75%;
+  Width: 75%;
+}
+
+.icon {
+  height: 5%;
+  Width: 5%;
+}
 
 /* Profile Photo */
 
@@ -98,4 +108,6 @@ a.selected, a:hover {
 /* Footer */
 footer {
   text-align: center;
+  margin-top: auto;
+  clear: both;
 }
