@@ -75,7 +75,7 @@ header {
 a {
   text-decoration: none; /** Removes link styling. **/
 }
-nav a, nav a:visited {
+nav a, nav a:visited, h3 {
   color:#4A6152;
 }
 a:link {
@@ -88,6 +88,10 @@ a, a:visited {
 
 a.selected, a:hover {
   color: #4A6152;
+}
+
+p, h3, figcaption, a {
+  font-family: 'PT Sans', sans-serif;
 }
 
 /* Icons and images */
