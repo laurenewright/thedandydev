@@ -1,0 +1,6 @@
+@media screen and (max-width: 480px) {
+    #liveGalley, #designGallery{ 
+     max-width: 100%;
+     display: block;
+  }
+}

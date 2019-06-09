@@ -46,19 +46,25 @@
   justify-content: center; */
 }
 
+/* @media screen and (max-width: 480px) {
+  #liveGalley, #designGallery{ 
+   max-width: 100%;
+   display: block;
+}
+} */
 
 
 /* Body styling */
 
 body {
-  background-color:white;
+  background-color:#f5f5f5;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
 header {
-  background-color: #57FFD9;
+  background-color: #AAE0BE;
   padding: 5px 0 0 0;
   text-align: center;
 }
@@ -70,18 +76,18 @@ a {
   text-decoration: none; /** Removes link styling. **/
 }
 nav a, nav a:visited {
-  color:#4F8FE8;
+  color:#4A6152;
 }
 a:link {
-  color: #4F8FE8;
+  color: #4A6152;
 }
 /*nav styles*/
 a, a:visited {
-  color: #4F8FE8;
+  color: #4A6152;
 }
 
 a.selected, a:hover {
-  color: #4F8FE8;
+  color: #4A6152;
 }
 
 /* Icons and images */
@@ -96,12 +102,22 @@ a.selected, a:hover {
   Width: 5%;
 }
 
+.contact-info {
+  text-align: center;
+}
+
+.book-info {
+  text-align: center;
+}
+
+
 /* Profile Photo */
 
 .profile-photo {
   display: block; /** Using Block allows us to center the image using margins. Default is inline. **/
   max-width: 175px;
   margin: 0 auto 30px;
+  margin-top: 30px;
   border-radius: 100%;
 }
 

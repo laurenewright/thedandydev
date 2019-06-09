@@ -6,34 +6,47 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
         <meta name="viewport" content="width=device-width,initial-scale=1">
     </head>
     <body>
-        <header>
-            <a href="index.html" id="logo">
-                <h1>The Dandy Dev</h1>
-            </a>
-            <nav>
-                <h2>
-                    <a href="design.html">Web Developer</a> 
-                    | 
-                    <a href="writing.html">Writer</a>                    
-                    | 
-                    <a target="_blank" href="http://dandyserenity.com">Illustrator</a> 
-                </h2>
-            </nav>
+            <header>
+                <a href="index.html" id="logo">
+                    <h1>The Dandy Dev</h1>
+                </a>
+                <nav>
+                    <h2 id="nav">
+                        <a href="index.html">Developer</a>                    
+                        | 
+                        <a href="writing.html">Writer</a>                    
+                        |
+                        <a href="contact.html">Contact</a>
+                    </h2>
+                </nav>
             </header>
         <div id="wrapper">
-
-            
+            <section class="contact-info">
+                    <div> 
+                        <img src="img/profile.jpg" alt="Photograph of Lauren Wright" class="profile-photo">
+                        <h3>Email Me!</h3>
+                        <p>thedandydeveloper@gmail.com</p>
+                        <p><a target="_blank" href="http://twitter.com/dandyserenity">Twitter Profile</a></p>
+                        <p><a target="_blank" href="https://www.linkedin.com/in/lauren-wright/">LinkedIn Profile</a></p>
+                    </div>  
+            </section>            
+            </div>
             <footer>
-                <a target="_blank" href="http://twitter.com/dandyserenity"><img src="img/icons/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
+                <a target="_blank" href="http://twitter.com/dandyserenity"></a>
                 <p>&copy; 2019 Lauren Wright</p>
-              </footer>
+            </footer>
         </div>
         <script src="js/jquery-3.2.1.min.js"></script>
-        <script src="js/scripts.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+                easing: 'ease-out-back',
+                duration: 1000
+            });
+        </script>
     </body>
 </html>
