@@ -39,8 +39,9 @@
 }
 
 #liveGallery, #designGallery {
-  float: left;
-  width: 50%;
+  /* float: center; */
+  width: 100%;
+  display: block;
   /* display: flex;
   align-items: center;
   justify-content: center; */
